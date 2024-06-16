@@ -1,0 +1,2 @@
+1)problem with main when checking for julia values that are out of desired range.
+
