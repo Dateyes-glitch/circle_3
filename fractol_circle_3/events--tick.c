@@ -12,6 +12,7 @@ int   ft_close_handler(my_f *f)
                      f->mlx_win);
   mlx_destroy_display(f->mlx_api);
   free(f->mlx_api);
+  exit(EXIT_SUCCESS);
 }
  
 /**/

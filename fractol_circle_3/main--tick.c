@@ -14,7 +14,7 @@ int   main(int ac, char **av)
 {
   my_f f;
 
-  if (ac == 2 && (!ft_strncmp(av[1], "mandelbrot", 10) || !ft_strncmp(av[1], "flower", 6) || !ft_strncmp(av[1], "cool", 4) || !ft_strncmp(av[1], "batsig",6)) || ac == 4 && !ft_strncmp(av[1], "julia", 5))
+  if (ac == 2 && (!ft_strncmp(av[1], "mandelbrot", 10) || !ft_strncmp(av[1], "flower", 6) || !ft_strncmp(av[1], "cool", 4) || !ft_strncmp(av[1], "bat",3)) || ac == 4 && !ft_strncmp(av[1], "julia", 5))
   {
     f.id = av[1];
     if (!ft_strncmp(f.id, "julia", 5))
